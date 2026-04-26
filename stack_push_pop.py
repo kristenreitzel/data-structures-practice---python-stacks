@@ -16,3 +16,4 @@ second = stack.pop()  # removes "Puppy"
 
 print("Popped items (in order):", first, second)
 print("Stack after pops:", stack)  # should contain just "Dog"
+print("Expect top of stack to be 'Cat' →", stack[-1])
